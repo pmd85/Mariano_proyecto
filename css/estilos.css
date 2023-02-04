@@ -1,0 +1,73 @@
+* {
+
+    color: blue;
+
+}
+
+p{
+    color: red; 
+    width: 300px;
+    /**
+    font-weight: es la propiedad (en este caso significa tipo de letra) 
+    bold: es el valor (en este caso bold significa negrita)
+    alt+60 signo menor o igual, tambien se puede apretando bloq num + signo de menor o igual 
+    shift +signo mayor o igual hace el cierre
+    para cerrar una propiedad (junto con el valor se le pone al final ;
+    se puede colocar distintos tipos de altura a padding - border - margin
+    en todos los casos de pone... ejm padding-top (seria arriba del titutlo)
+    padding-bottom (parte de abajo del titulo)
+    padding-left - padding-right 
+    se debe colocar en el sentido de las agujas del relos
+    arriba - derecha - abajo - izquierda
+    con elemento section (dentro de la carpeta ej: estilos.css (carpeta creada para incluir todos los trabajo que quiera imitar en distintas paginas web)
+    le doy formato a la caja que va a contener lo que quiera mostrar en el html
+    ese elemento section en la pagina va a estar vacio (de valores), pero va a contener toda la informacion q pues en la capeta
+    si se va a ver reflejado h1 - p - ul(lista desdordenada con LI )
+    Dentro del elemento selectors podemos usar el simbolo * que hace que todo el documento tenga la misma propiedad, por ejemplo el color
+    ahora bien, si ya hay un color definido anteriormente para algun elemento, se respetara dicho color (es decir lo particular se sobrepone a lo general)
+    si quiero q a todos aquellos elementos q elija (ej p - span - etc) se le aplique el mismo valor, tengo que separar dichos elementos con , (coma) eje: <p, span>
+    los ID se deben aplicar a los h1 (pq son unicos (como titulos) / los class son para los P
+    font-family es para seleccionar el tipo de letra
+    background-color: es para definir un tipo de color para el fondo de pantalla
+    agregar * {box-sizing: border-box; para que tanto el padding como el border queden tambien includos dentro de las columndas que querramos contruir
+    de esta manera ponemos... ej .header (seria como el encabezado) .menu o .main(el contenido del tema a desarrollar) todo queda a condicion de las condiciones q le pongamos    
+*/
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: blueviolet;
+    /*padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    */
+    padding: 15px 30px 20px 40px;
+    border: 20px solid blue;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+    section {
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+}
+
+#primer_id {
+            color: blueviolet;
+            font-size: 23px;
+}
+
+#segundo_id {
+            color: brown;
+            font-size: 30px;
+}            
+
+.tipodeclase1{
+            color: red;
+}
+
+.tipodeclase2{
+            color: fuchsia;
+}
